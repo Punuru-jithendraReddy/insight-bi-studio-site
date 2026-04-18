@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Insight BI Studio</title>
+  <meta
+    name="description"
+    content="Premium Power BI dashboards, data analysis, and reporting automation for modern teams."
+  />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="page-glow page-glow-one" aria-hidden="true"></div>
+  <div class="page-glow page-glow-two" aria-hidden="true"></div>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Go to top of page">
+        <span class="brand-mark" id="brand-mark" aria-hidden="true"></span>
+        <span class="brand-copy">
+          <strong id="brand-name">Insight BI Studio</strong>
+          <span id="brand-tagline">Business intelligence dashboards and reporting systems</span>
+        </span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        id="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="nav-panel"
+        aria-label="Toggle navigation"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-panel" id="nav-panel">
+        <nav class="site-nav" aria-label="Primary navigation">
+          <ul id="nav-links"></ul>
+        </nav>
+
+        <div class="header-actions">
+          <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle color theme" aria-pressed="false">
+            <span class="theme-text theme-text-light">Light</span>
+            <span class="theme-switch" aria-hidden="true">
+              <span class="theme-thumb"></span>
+            </span>
+            <span class="theme-text theme-text-dark">Dark</span>
+          </button>
+          <a class="button button-cta" id="header-cta" href="#contact">
+            <span data-button-label>Start project</span>
+            <span class="button-cta-arrow" aria-hidden="true"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="section-eyebrow" id="hero-eyebrow"></p>
+          <h1 id="hero-title"></h1>
+          <p class="hero-description" id="hero-description"></p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" id="hero-primary" href="#projects"></a>
+            <a class="button button-secondary" id="hero-secondary" href="#contact"></a>
+          </div>
+
+          <div class="proof-strip" id="proof-strip"></div>
+          <div class="hero-metrics" id="hero-metrics"></div>
+        </div>
+
+        <aside class="hero-spotlight reveal">
+          <div class="portrait-frame">
+            <img id="hero-image" alt="" />
+          </div>
+
+          <div class="spotlight-copy">
+            <p class="card-kicker" id="hero-owner"></p>
+            <h2 id="hero-owner-role"></h2>
+            <p id="hero-availability"></p>
+          </div>
+
+          <div class="mini-grid" id="hero-mini-grid"></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section-shell" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-eyebrow" id="about-eyebrow"></p>
+          <h2 class="section-title" id="about-title"></h2>
+          <p class="section-description" id="about-description"></p>
+        </div>
+
+        <div class="about-layout">
+          <article class="about-story reveal">
+            <div class="about-story-main">
+              <p class="card-kicker" id="about-story-kicker"></p>
+              <h3 class="about-story-title" id="about-story-title"></h3>
+              <p class="about-lead" id="about-summary"></p>
+              <div class="about-meta" id="about-meta"></div>
+            </div>
+
+            <div class="about-story-side">
+              <div class="about-stats" id="about-stats"></div>
+            </div>
+          </article>
+
+          <div class="about-grid" id="about-grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell section-tinted" id="services">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-eyebrow" id="services-eyebrow"></p>
+          <h2 class="section-title" id="services-title"></h2>
+          <p class="section-description" id="services-description"></p>
+        </div>
+
+        <div class="service-grid" id="services-grid"></div>
+      </div>
+    </section>
+
+    <section class="section-shell" id="process">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-eyebrow" id="process-eyebrow"></p>
+          <h2 class="section-title" id="process-title"></h2>
+          <p class="section-description" id="process-description"></p>
+        </div>
+
+        <div class="process-grid" id="process-grid"></div>
+      </div>
+    </section>
+
+    <section class="section-shell" id="focus-areas">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-eyebrow" id="focus-eyebrow"></p>
+          <h2 class="section-title" id="focus-title"></h2>
+          <p class="section-description" id="focus-description"></p>
+        </div>
+
+        <div class="domain-grid" id="domain-grid"></div>
+      </div>
+    </section>
+
+    <section class="section-shell section-tinted" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-eyebrow" id="projects-eyebrow"></p>
+          <h2 class="section-title" id="projects-title"></h2>
+          <p class="section-description" id="projects-description"></p>
+        </div>
+
+        <div class="project-toolbar reveal">
+          <div class="filter-chips" id="project-filters"></div>
+        </div>
+
+        <div class="project-grid" id="project-grid"></div>
+      </div>
+    </section>
+
+    <section class="section-shell" id="experience">
+      <div class="container split-layout">
+        <div class="split-column">
+          <div class="section-heading reveal">
+            <p class="section-eyebrow" id="experience-eyebrow"></p>
+            <h2 class="section-title" id="experience-title"></h2>
+            <p class="section-description" id="experience-description"></p>
+          </div>
+
+          <div class="timeline" id="experience-list"></div>
+        </div>
+
+        <div class="split-column" id="skills">
+          <div class="section-heading reveal">
+            <p class="section-eyebrow" id="skills-eyebrow"></p>
+            <h2 class="section-title" id="skills-title"></h2>
+            <p class="section-description" id="skills-description"></p>
+          </div>
+
+          <div class="skills-panel reveal">
+            <div class="skill-list" id="skill-list"></div>
+            <div class="tool-grid" id="tool-grid"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell" id="contact">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-eyebrow" id="contact-eyebrow"></p>
+          <h2 class="section-title" id="contact-title"></h2>
+          <p class="section-description" id="contact-description"></p>
+        </div>
+
+        <div class="contact-layout">
+          <aside class="contact-panel reveal">
+            <div class="contact-methods" id="contact-methods"></div>
+          </aside>
+
+          <article class="contact-form-card reveal">
+            <h3 id="contact-form-title">Start a conversation</h3>
+            <p class="contact-note" id="contact-form-note"></p>
+
+            <form class="contact-form" id="contact-form" novalidate>
+              <div class="form-row">
+                <label class="field">
+                  <span>Name</span>
+                  <input type="text" name="name" placeholder="Your name" required />
+                </label>
+                <label class="field">
+                  <span>Email</span>
+                  <input type="email" name="email" placeholder="you@company.com" required />
+                </label>
+              </div>
+
+              <div class="form-row">
+                <label class="field">
+                  <span>Company</span>
+                  <input type="text" name="company" placeholder="Company or team name" required />
+                </label>
+                <label class="field">
+                  <span>Project type</span>
+                  <select name="interest" id="interest-select" required></select>
+                </label>
+              </div>
+
+              <div class="form-row">
+                <label class="field">
+                  <span>Budget range</span>
+                  <select name="budget" id="budget-select" required></select>
+                </label>
+                <label class="field">
+                  <span>Timeline</span>
+                  <select name="timeline" id="timeline-select" required></select>
+                </label>
+              </div>
+
+              <label class="field">
+                <span>What do you need help with?</span>
+                <textarea
+                  name="message"
+                  rows="5"
+                  placeholder="Tell me about the dashboards, reporting pain points, data sources, or automation goals."
+                  required
+                ></textarea>
+              </label>
+
+              <label class="field field-honeypot" aria-hidden="true">
+                <span>Leave this field empty</span>
+                <input type="text" name="_honey" tabindex="-1" autocomplete="off" />
+              </label>
+
+              <input type="hidden" name="_subject" value="" />
+              <input type="hidden" name="_template" value="" />
+              <input type="hidden" name="_next" value="" />
+              <input type="hidden" name="_url" value="" />
+              <input type="hidden" name="_replyto" value="" />
+
+              <button class="button button-primary button-wide" type="submit">Send project brief</button>
+              <p class="form-status" id="form-status" aria-live="polite"></p>
+            </form>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-shell reveal">
+        <div class="footer-top">
+          <div>
+            <p class="section-eyebrow" id="footer-eyebrow"></p>
+            <h2 id="footer-title"></h2>
+            <p id="footer-description"></p>
+          </div>
+
+          <div class="footer-actions">
+            <a class="button button-primary" id="footer-primary" href="#contact"></a>
+            <a class="button button-secondary" id="footer-secondary" href="#projects"></a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-branding">
+            <span class="brand-mark footer-mark" id="footer-brand-mark" aria-hidden="true"></span>
+            <div>
+              <strong id="footer-brand-name">Insight BI Studio</strong>
+              <p id="footer-note"></p>
+            </div>
+          </div>
+
+          <p class="footer-legal" id="footer-legal"></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal" id="project-modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" id="modal-close" type="button" aria-label="Close project details">
+        Close
+      </button>
+
+      <div class="modal-media" id="modal-media"></div>
+
+      <p class="section-eyebrow" id="modal-category"></p>
+      <h3 id="modal-title"></h3>
+      <p class="modal-details" id="modal-details"></p>
+
+      <div class="modal-meta-grid">
+        <article class="modal-meta-card">
+          <span>Problem</span>
+          <p id="modal-problem"></p>
+        </article>
+        <article class="modal-meta-card">
+          <span>Solution</span>
+          <p id="modal-solution"></p>
+        </article>
+        <article class="modal-meta-card">
+          <span>Impact</span>
+          <p id="modal-impact"></p>
+        </article>
+      </div>
+
+      <div class="modal-actions">
+        <a class="button button-secondary" id="modal-preview-link" href="#" target="_blank" rel="noopener">
+          Open project media
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
