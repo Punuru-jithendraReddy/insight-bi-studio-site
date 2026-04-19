@@ -33,10 +33,10 @@ function cacheElements() {
     "hero-secondary",
     "proof-strip",
     "hero-metrics",
-    "hero-image",
-    "hero-owner",
-    "hero-owner-role",
-    "hero-availability",
+    "hero-panel-kicker",
+    "hero-panel-title",
+    "hero-panel-description",
+    "hero-panel-list",
     "hero-mini-grid",
     "about-eyebrow",
     "about-title",
@@ -60,14 +60,14 @@ function cacheElements() {
     "projects-description",
     "project-filters",
     "project-grid",
-    "experience-eyebrow",
-    "experience-title",
-    "experience-description",
-    "experience-list",
-    "skills-eyebrow",
-    "skills-title",
-    "skills-description",
-    "skill-list",
+    "operating-eyebrow",
+    "operating-title",
+    "operating-description",
+    "operating-list",
+    "capabilities-eyebrow",
+    "capabilities-title",
+    "capabilities-description",
+    "capability-grid",
     "tool-grid",
     "process-eyebrow",
     "process-title",
@@ -138,8 +138,8 @@ function hydratePage() {
   renderFocusAreas();
   renderProjectFilters();
   renderProjects();
-  renderExperience();
-  renderSkills();
+  renderOperatingModel();
+  renderCapabilities();
   renderContact();
   renderFooter();
   initializeRevealObserver();
@@ -177,7 +177,7 @@ function renderNavigation(links) {
 }
 
 function renderHero() {
-  const { hero, brand, metrics, proofStrip } = state.data;
+  const { hero, heroPanel, metrics, proofStrip } = state.data;
 
   text("hero-eyebrow", hero.eyebrow);
   text("hero-title", hero.title);
@@ -185,12 +185,20 @@ function renderHero() {
   anchor("hero-primary", hero.primaryCta.label, hero.primaryCta.href);
   anchor("hero-secondary", hero.secondaryCta.label, hero.secondaryCta.href);
   setExternalLink("hero-secondary", hero.secondaryCta.href);
-  text("hero-owner", brand.ownerName);
-  text("hero-owner-role", brand.ownerRole);
-  text("hero-availability", hero.availability);
+  text("hero-panel-kicker", heroPanel.kicker);
+  text("hero-panel-title", heroPanel.title);
+  text("hero-panel-description", heroPanel.description);
 
-  elements["hero-image"].src = brand.profileImage;
-  elements["hero-image"].alt = `${brand.ownerName} portrait`;
+  elements["hero-panel-list"].innerHTML = heroPanel.highlights
+    .map(
+      (item) => `
+        <div class="hero-panel-item">
+          <span class="hero-panel-bullet" aria-hidden="true"></span>
+          <p>${item}</p>
+        </div>
+      `,
+    )
+    .join("");
 
   elements["proof-strip"].innerHTML = proofStrip
     .map((item) => `<span class="proof-chip">${item}</span>`)
@@ -223,7 +231,7 @@ function renderHero() {
 }
 
 function renderAbout() {
-  const { sections, brand, aboutCards, aboutStory, metrics } = state.data;
+  const { sections, brand, aboutCards, aboutMeta, aboutStory, metrics } = state.data;
 
   renderHeading("about", sections.about);
   text("about-story-kicker", aboutStory.kicker);
@@ -245,11 +253,7 @@ function renderAbout() {
     )
     .join("");
 
-  elements["about-meta"].innerHTML = [
-    brand.ownerRole,
-    brand.location,
-    brand.email,
-  ]
+  elements["about-meta"].innerHTML = aboutMeta
     .map((item) => `<span class="meta-chip">${item}</span>`)
     .join("");
 
@@ -345,7 +349,7 @@ function renderProjects() {
 
           <div class="project-copy">
             <div class="project-topline">
-              <span class="project-chip">${project.featured ? "Featured build" : "Project"}</span>
+              <span class="project-chip">${project.featured ? "Featured case study" : "Case study"}</span>
               <span class="project-chip">${project.category}</span>
             </div>
 
@@ -364,7 +368,7 @@ function renderProjects() {
             </div>
 
             <button class="text-button" type="button" data-open-project="${sourceIndex}">
-              View project details
+              View case study
             </button>
           </div>
         </article>
@@ -375,19 +379,20 @@ function renderProjects() {
   refreshRevealElements();
 }
 
-function renderExperience() {
-  renderHeading("experience", state.data.sections.experience);
+function renderOperatingModel() {
+  renderHeading("operating", state.data.sections.operatingModel);
 
-  elements["experience-list"].innerHTML = state.data.experience
+  elements["operating-list"].innerHTML = state.data.operatingModel
     .map(
       (item) => `
-        <article class="timeline-card reveal">
-          <span class="timeline-date">${item.date}</span>
-          <h3>${item.role}</h3>
-          <p class="timeline-company">${item.company}</p>
-          <p class="timeline-summary">${item.summary}</p>
-          <ul class="timeline-list">
-            ${item.highlights.map((highlight) => `<li>${highlight}</li>`).join("")}
+        <article class="operating-card reveal">
+          <div class="operating-head">
+            <span class="operating-label">${item.label}</span>
+            <h3>${item.title}</h3>
+          </div>
+          <p class="operating-summary">${item.summary}</p>
+          <ul class="operating-points">
+            ${item.points.map((point) => `<li>${point}</li>`).join("")}
           </ul>
         </article>
       `,
@@ -395,21 +400,16 @@ function renderExperience() {
     .join("");
 }
 
-function renderSkills() {
-  renderHeading("skills", state.data.sections.skills);
+function renderCapabilities() {
+  renderHeading("capabilities", state.data.sections.capabilities);
 
-  elements["skill-list"].innerHTML = state.data.skills
+  elements["capability-grid"].innerHTML = state.data.capabilities
     .map(
-      (skill) => `
-        <div class="skill-row">
-          <div class="skill-head">
-            <strong>${skill.name}</strong>
-            <span>${skill.value}%</span>
-          </div>
-          <div class="skill-track">
-            <div class="skill-fill" style="width:${skill.value}%"></div>
-          </div>
-        </div>
+      (item) => `
+        <article class="capability-card">
+          <h3>${item.title}</h3>
+          <p>${item.copy}</p>
+        </article>
       `,
     )
     .join("");
@@ -470,7 +470,7 @@ function renderContact() {
 }
 
 function renderFooter() {
-  const { footer, brand } = state.data;
+  const { footer } = state.data;
 
   text("footer-eyebrow", footer.eyebrow);
   text("footer-title", footer.title);
@@ -478,7 +478,7 @@ function renderFooter() {
   anchor("footer-primary", footer.primaryCta.label, footer.primaryCta.href);
   anchor("footer-secondary", footer.secondaryCta.label, footer.secondaryCta.href);
   setExternalLink("footer-secondary", footer.secondaryCta.href);
-  text("footer-note", footer.note.replace("{owner}", brand.ownerName));
+  text("footer-note", footer.note);
   text("footer-legal", footer.legal);
 }
 
@@ -505,7 +505,7 @@ function openProjectModal(index) {
   elements["modal-media"].innerHTML = renderProjectMedia(project);
 
   if (project.preview) {
-    anchor("modal-preview-link", "Open project media", project.preview);
+    anchor("modal-preview-link", "Open case study media", project.preview);
     setExternalLink("modal-preview-link", project.preview);
     elements["modal-preview-link"].style.display = "inline-flex";
   } else {
