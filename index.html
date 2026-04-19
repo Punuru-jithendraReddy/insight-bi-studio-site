@@ -6,7 +6,7 @@
   <title>Insight BI Studio</title>
   <meta
     name="description"
-    content="Premium Power BI dashboards, data analysis, and reporting automation for modern teams."
+    content="Business intelligence dashboards, automation, and reporting systems."
   />
   <link rel="icon" type="image/svg+xml" href="assets/insight-mark.svg" />
   <link rel="shortcut icon" href="assets/insight-mark.svg" />
@@ -79,16 +79,13 @@
         </div>
 
         <aside class="hero-spotlight reveal">
-          <div class="portrait-frame">
-            <img id="hero-image" alt="" />
-          </div>
-
           <div class="spotlight-copy">
-            <p class="card-kicker" id="hero-owner"></p>
-            <h2 id="hero-owner-role"></h2>
-            <p id="hero-availability"></p>
+            <p class="card-kicker" id="hero-panel-kicker"></p>
+            <h2 id="hero-panel-title"></h2>
+            <p id="hero-panel-description"></p>
           </div>
 
+          <div class="hero-panel-list" id="hero-panel-list"></div>
           <div class="mini-grid" id="hero-mini-grid"></div>
         </aside>
       </div>
@@ -173,27 +170,27 @@
       </div>
     </section>
 
-    <section class="section-shell" id="experience">
+    <section class="section-shell" id="operating-model">
       <div class="container split-layout">
         <div class="split-column">
           <div class="section-heading reveal">
-            <p class="section-eyebrow" id="experience-eyebrow"></p>
-            <h2 class="section-title" id="experience-title"></h2>
-            <p class="section-description" id="experience-description"></p>
+            <p class="section-eyebrow" id="operating-eyebrow"></p>
+            <h2 class="section-title" id="operating-title"></h2>
+            <p class="section-description" id="operating-description"></p>
           </div>
 
-          <div class="timeline" id="experience-list"></div>
+          <div class="operating-grid" id="operating-list"></div>
         </div>
 
-        <div class="split-column" id="skills">
+        <div class="split-column" id="capabilities">
           <div class="section-heading reveal">
-            <p class="section-eyebrow" id="skills-eyebrow"></p>
-            <h2 class="section-title" id="skills-title"></h2>
-            <p class="section-description" id="skills-description"></p>
+            <p class="section-eyebrow" id="capabilities-eyebrow"></p>
+            <h2 class="section-title" id="capabilities-title"></h2>
+            <p class="section-description" id="capabilities-description"></p>
           </div>
 
-          <div class="skills-panel reveal">
-            <div class="skill-list" id="skill-list"></div>
+          <div class="capability-panel reveal">
+            <div class="capability-grid" id="capability-grid"></div>
             <div class="tool-grid" id="tool-grid"></div>
           </div>
         </div>
@@ -252,11 +249,11 @@
               </div>
 
               <label class="field">
-                <span>What do you need help with?</span>
+                  <span>What do you need help with?</span>
                 <textarea
                   name="message"
                   rows="5"
-                  placeholder="Tell me about the dashboards, reporting pain points, data sources, or automation goals."
+                  placeholder="Tell us about the reporting issue, current tools, data sources, and what a successful outcome looks like."
                   required
                 ></textarea>
               </label>
@@ -272,7 +269,7 @@
               <input type="hidden" name="_url" value="" />
               <input type="hidden" name="_replyto" value="" />
 
-              <button class="button button-primary button-wide" type="submit">Send project brief</button>
+              <button class="button button-primary button-wide" type="submit">Send inquiry</button>
               <p class="form-status" id="form-status" aria-live="polite"></p>
             </form>
           </article>
@@ -342,7 +339,7 @@
 
       <div class="modal-actions">
         <a class="button button-secondary" id="modal-preview-link" href="#" target="_blank" rel="noopener">
-          Open project media
+          Open case study media
         </a>
       </div>
     </div>
