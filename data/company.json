@@ -1,82 +1,89 @@
 {
   "meta": {
-    "title": "Insight BI Studio | Power BI Dashboards, Data Analysis, and Reporting Automation",
-    "description": "Premium Power BI portfolio and consulting website for dashboard development, DAX modeling, reporting automation, and business intelligence solutions."
+    "title": "Insight BI Studio | Business Intelligence & Reporting Systems",
+    "description": "Intelligence and automation that drive business performance."
   },
   "brand": {
     "companyName": "Insight BI Studio",
     "logoPath": "assets/insight-mark.svg",
-    "ownerName": "Jithendra Reddy Punuru",
-    "ownerRole": "Power BI Developer | Data Analysis & Dashboard Consultant",
-    "tagline": "Business intelligence dashboards, automation, and reporting systems.",
-    "summary": "Software Engineer with solid experience in Power BI, SQL, Python, and Microsoft Power Platform. Skilled in building dashboards, automating workflows, integrating Oracle systems, and improving business processes. Known for reducing manual efforts and improving efficiency through automation and clean data models.",
+    "tagline": "Intelligence and automation that drive business performance",
+    "summary": "Insight BI Studio helps growing teams replace spreadsheet-heavy reporting with cleaner dashboards, stronger data models, and automation that reduces manual follow-up.",
     "location": "Bengaluru, India",
     "email": "jithendrareddypunuru@gmail.com",
     "phone": "+91-8374547319",
-    "linkedin": "https://www.linkedin.com/in/jithendrareddypunuru/",
-    "resumeUrl": "https://huggingface.co/spaces/Jithendra-reddy/My-Portfolio/resolve/main/src/Jithendra_Reddy_PowerBI_Developer_Resume.pdf",
-    "profileImage": "https://raw.githubusercontent.com/Punuru-jithendraReddy/portfolio-app/main/assets/Profile.jpg"
+    "linkedin": "https://www.linkedin.com/in/jithendrareddypunuru/"
   },
   "navigation": [
-    { "label": "About", "href": "#about" },
+    { "label": "Company", "href": "#about" },
     { "label": "Services", "href": "#services" },
     { "label": "Process", "href": "#process" },
-    { "label": "Projects", "href": "#projects" },
-    { "label": "Experience", "href": "#experience" },
+    { "label": "Industries", "href": "#focus-areas" },
+    { "label": "Case Studies", "href": "#projects" },
+    { "label": "Operating Model", "href": "#operating-model" },
     { "label": "Contact", "href": "#contact" }
   ],
   "hero": {
-    "eyebrow": "Power BI dashboards | DAX modeling | Reporting automation",
-    "title": "I help teams turn raw data into clean dashboards, faster reporting, and better decisions.",
-    "description": "From finance and sales reporting to healthcare analytics and workflow automation, I build Power BI solutions that reduce manual work and make insights easier to act on.",
+    "eyebrow": "Power BI systems | reporting automation | analytics design",
+    "title": "Business reporting that gives leaders answers, not more spreadsheets.",
+    "description": "We design decision-ready dashboards, improve data models, and automate reporting workflows so teams can move from manual updates to trusted operational visibility.",
     "primaryCta": {
-      "label": "Explore dashboards",
+      "label": "See case studies",
       "href": "#projects"
     },
     "secondaryCta": {
-      "label": "Download resume",
-      "href": "https://huggingface.co/spaces/Jithendra-reddy/My-Portfolio/resolve/main/src/Jithendra_Reddy_PowerBI_Developer_Resume.pdf"
+      "label": "Start a conversation",
+      "href": "#contact"
     },
-    "availability": "Available for dashboard builds, reporting revamps, DAX cleanup, and BI automation projects.",
     "miniCards": [
       {
-        "label": "Power BI delivery",
-        "title": "Executive-ready reporting",
-        "text": "Dashboards built for finance, sales, logistics, healthcare, and operational decision-making."
+        "label": "Executive visibility",
+        "title": "Dashboards teams can act on",
+        "text": "Reporting layouts are designed around the decisions finance, sales, and operations leaders need to make every week."
       },
       {
         "label": "Automation",
-        "title": "Less manual work",
-        "text": "Pipelines, file flows, and Microsoft Power Platform automation designed to remove repetitive reporting effort."
+        "title": "Less manual reporting work",
+        "text": "Workflows connect Power BI, Python, SharePoint, and Microsoft automation tools to remove repeat effort."
       },
       {
-        "label": "Performance",
-        "title": "Cleaner models and faster refresh",
-        "text": "DAX, data modeling, and refresh-aware design focused on usability as much as visual polish."
+        "label": "Delivery quality",
+        "title": "Models that stay maintainable",
+        "text": "DAX logic, source structure, and usability are treated like part of the product instead of afterthoughts."
       }
+    ]
+  },
+  "heroPanel": {
+    "kicker": "Built for execution",
+    "title": "A studio model that combines analytics, design, and automation",
+    "description": "Best fit for teams that need executive reporting, KPI consistency, faster refresh cycles, or a cleaner reporting workflow across Microsoft tools.",
+    "highlights": [
+      "Executive reporting systems for finance, sales, and operations",
+      "DAX, data model, and refresh performance optimization",
+      "Automation support across Power Automate, Python, SharePoint, and Logic Apps",
+      "Case-study-led delivery focused on adoption, clarity, and business value"
     ]
   },
   "metrics": [
     {
       "value": 12,
       "suffix": "+",
-      "label": "Power BI dashboards delivered",
+      "label": "production dashboards delivered",
       "eyebrow": "Delivery",
-      "detail": "Dashboard work delivered across finance, sales, logistics, and operations."
+      "detail": "Reporting systems delivered across sales, finance, logistics, and operations."
     },
     {
       "value": 40,
       "suffix": "%",
-      "label": "manual effort reduced",
+      "label": "manual reporting reduced",
       "eyebrow": "Automation",
-      "detail": "Repeated reporting tasks reduced with better workflow design and automation."
+      "detail": "Repeated report prep and workflow effort reduced through better system design."
     },
     {
       "value": 30,
       "suffix": "%",
       "label": "efficiency improvement",
       "eyebrow": "Impact",
-      "detail": "Cleaner data models and reporting flow translated into faster business delivery."
+      "detail": "Operational reporting became faster and easier to trust after model and process cleanup."
     }
   ],
   "proofStrip": [
@@ -87,106 +94,112 @@
     "Power Automate",
     "Power Apps",
     "Azure Logic Apps",
-    "Copilot Studio"
+    "SharePoint"
   ],
   "sections": {
     "about": {
-      "eyebrow": "About the studio",
-      "title": "Business-first BI work that looks polished and stays useful long after launch",
-      "description": "I build reporting experiences that balance clear visuals, strong model logic, and practical business value."
+      "eyebrow": "Company",
+      "title": "A reporting partner focused on operational clarity and durable analytics delivery",
+      "description": "The goal is not to ship a pretty dashboard and disappear. The work is designed to improve reporting trust, team adoption, and day-to-day business decisions."
     },
     "services": {
       "eyebrow": "Services",
-      "title": "What I help clients build with Power BI, reporting systems, and automation",
-      "description": "The focus is not just on attractive dashboards, but on models, workflows, and reporting experiences people can trust and use consistently."
+      "title": "Services built around reporting systems, not one-off visuals",
+      "description": "Each engagement combines business context, data logic, and interface clarity so the final reporting experience stays useful after launch."
     },
     "focusAreas": {
-      "eyebrow": "Focus areas",
-      "title": "Analytics work across sales, finance, healthcare, and data quality workflows",
-      "description": "These are the types of problems most often reflected in the portfolio projects and delivery experience."
+      "eyebrow": "Industries and use cases",
+      "title": "Analytics support across finance, sales, healthcare, and data operations",
+      "description": "The studio is strongest where teams need KPI clarity, multi-source reporting, operational visibility, and more confidence in the numbers."
     },
     "projects": {
-      "eyebrow": "Projects",
-      "title": "Selected dashboard, analytics, and data automation projects",
-      "description": "Power BI work across sales, finance, healthcare, and data validation use cases."
+      "eyebrow": "Case studies",
+      "title": "Selected reporting systems and analytics solutions",
+      "description": "Examples of dashboards and tools built for sales, finance, healthcare, and reconciliation-heavy workflows."
     },
-    "experience": {
-      "eyebrow": "Experience",
-      "title": "Hands-on delivery across BI engineering, dashboarding, and automation",
-      "description": "Recent work blends Power BI with SQL, Python, Microsoft automation tools, and business-facing reporting systems."
+    "operatingModel": {
+      "eyebrow": "Operating model",
+      "title": "How engagements stay structured, fast, and business-aligned",
+      "description": "A business website should make the delivery model clear, so this section focuses on how work is scoped, built, and improved."
     },
-    "skills": {
-      "eyebrow": "Stack and strengths",
-      "title": "Technical depth across analytics, DAX, automation, and integration work",
-      "description": "Tools and delivery strengths used across dashboards, data pipelines, and workflow automation."
+    "capabilities": {
+      "eyebrow": "Capabilities",
+      "title": "Core capabilities clients bring us in for",
+      "description": "These are the recurring outcomes teams need when reporting has become slow, inconsistent, or too manual."
     },
     "process": {
       "eyebrow": "Process",
       "title": "A clear build flow from messy data to reporting people actually use",
-      "description": "Every dashboard moves through business context, model thinking, interface clarity, and rollout-ready delivery."
+      "description": "Every dashboard moves through business context, data structure, interface clarity, and rollout-ready delivery."
     },
     "contact": {
       "eyebrow": "Contact",
-      "title": "Bring the messy data, reporting pain points, and dashboard backlog",
-      "description": "Project inquiries from this form are sent directly to email with contact details, budget, timeline, and delivery notes."
+      "title": "Talk to the team about reporting bottlenecks, dashboard goals, and delivery timelines",
+      "description": "Use the form to outline the current reporting challenge, source systems, and timing. Every inquiry routes directly to email for follow-up."
     }
   },
   "aboutStory": {
-    "kicker": "Built for clarity",
-    "title": "BI design, data modeling, and automation working together in one delivery flow"
+    "kicker": "Built for business teams",
+    "title": "Design, data logic, and workflow automation in one delivery stream"
   },
+  "aboutMeta": [
+    "Power BI delivery partner",
+    "Microsoft ecosystem automation",
+    "Decision-ready reporting",
+    "Global remote collaboration"
+  ],
   "aboutCards": [
     {
-      "title": "Decision-first dashboards",
-      "copy": "I design reports around the business questions leaders and analysts actually need answered, not around whatever visuals happen to look busy."
+      "title": "Business-first reporting",
+      "copy": "Dashboards are shaped around the meetings, KPIs, and decisions a team actually runs on, not around decorative visuals."
     },
     {
-      "title": "Clean data models",
-      "copy": "Star-schema thinking, measure-driven logic, and DAX optimization help keep reports maintainable, responsive, and easier to scale."
+      "title": "System thinking",
+      "copy": "The reporting layer is treated as part of a larger operating system that includes source cleanup, measure logic, refresh reliability, and stakeholder adoption."
     },
     {
-      "title": "Automation mindset",
-      "copy": "Power BI works best when paired with better data movement and workflow design, so I also use Python and Microsoft automation tools where they make sense."
+      "title": "Modernization without chaos",
+      "copy": "The studio works well when teams want to improve what they already have instead of replacing every report or workflow at once."
     }
   ],
   "services": [
     {
-      "title": "Power BI dashboard development",
-      "metric": "Sales | Finance | Operations",
-      "summary": "Build interactive dashboards that give leadership and analysts a cleaner view of KPIs, trends, and exceptions.",
+      "title": "Executive and operational dashboards",
+      "metric": "Power BI delivery",
+      "summary": "Build reporting systems that give leadership and operating teams a cleaner view of KPIs, trends, exceptions, and accountability.",
       "bullets": [
-        "Executive and operational dashboard design",
-        "Interactive filters, drill-downs, and KPI storytelling",
-        "Reporting layouts built for daily decision use"
+        "Executive reporting layouts and KPI storytelling",
+        "Operational dashboards with drill-downs and filters",
+        "Business-ready views for weekly and monthly decision cycles"
       ]
     },
     {
-      "title": "DAX and data model optimization",
+      "title": "Data model and DAX optimization",
       "metric": "Performance and reliability",
-      "summary": "Improve slow or hard-to-maintain reports with better measures, data models, relationships, and time-intelligence design.",
+      "summary": "Improve slow or inconsistent reports with cleaner models, better measures, stronger relationships, and refresh-aware structure.",
       "bullets": [
-        "Measure-first DAX patterns",
-        "Model cleanup and schema redesign",
-        "Refresh and usability improvements"
+        "Measure-first DAX patterns and cleanup",
+        "Schema redesign and model simplification",
+        "Refresh, usability, and maintainability improvements"
       ]
     },
     {
-      "title": "Reporting automation",
+      "title": "Reporting automation and workflow support",
       "metric": "Less manual effort",
-      "summary": "Connect reporting workflows with Power Automate, Python, SharePoint, and Microsoft tools to reduce repeated manual steps.",
+      "summary": "Connect reporting workflows with Power Automate, Python, SharePoint, and Microsoft tools to reduce repeated manual work.",
       "bullets": [
-        "Oracle to reporting pipeline support",
-        "Scheduled data preparation and file flows",
-        "Automated reporting and delivery workflows"
+        "Pipeline support from source systems into reporting layers",
+        "Scheduled data preparation and file movement flows",
+        "Automated report delivery and handoff processes"
       ]
     },
     {
-      "title": "Data analysis and insight support",
-      "metric": "Business-facing analysis",
-      "summary": "Translate raw data into practical comparisons, benchmarks, variance analysis, and insight-ready reporting views.",
+      "title": "Analytics and business insight support",
+      "metric": "Decision support",
+      "summary": "Translate raw operational data into practical comparisons, variance analysis, benchmark views, and more confident planning decisions.",
       "bullets": [
-        "Budget versus actuals analysis",
-        "Period-over-period and rolling benchmark logic",
+        "Budget versus actuals reporting",
+        "Period-over-period and historical benchmarking logic",
         "Insight framing for business stakeholders"
       ]
     }
@@ -194,23 +207,23 @@
   "focusAreas": [
     {
       "label": "Sales analytics",
-      "title": "Pipeline, leaderboard, and time-based sales reporting",
-      "copy": "Projects include open sales order analytics, performance leaderboards, historical benchmarking, and period-based performance comparison."
+      "title": "Pipeline, leaderboard, and time-based performance reporting",
+      "copy": "Support includes open sales order analytics, performance leaderboards, historical benchmarking, and period-based performance comparison."
     },
     {
       "label": "Finance reporting",
       "title": "Budget variance and business performance visibility",
-      "copy": "Financial views combine actuals, budget inputs, and operational source systems into cleaner KPI and variance tracking."
+      "copy": "Financial views combine actuals, budget inputs, and operational systems into cleaner KPI and variance tracking."
     },
     {
-      "label": "Healthcare dashboards",
-      "title": "Risk, quality, and performance monitoring",
-      "copy": "Healthcare work focuses on turning fragmented data into clearer dashboards for operational visibility and decision support."
+      "label": "Healthcare analytics",
+      "title": "Risk, quality, and operational monitoring",
+      "copy": "Healthcare work focuses on turning fragmented indicators into clearer dashboards for visibility and faster intervention."
     },
     {
-      "label": "Data quality tools",
-      "title": "Validation and reconciliation workflows",
-      "copy": "Beyond dashboards, the portfolio also includes a browser-based comparison tool for auditing and reconciling large datasets."
+      "label": "Data operations",
+      "title": "Validation, reconciliation, and workflow confidence",
+      "copy": "Beyond dashboards, the studio also supports browser-based comparison and audit workflows for large data sets."
     }
   ],
   "projects": [
@@ -220,11 +233,11 @@
       "featured": true,
       "image": "https://i.pinimg.com/1200x/43/54/ad/4354ad598883f576ccc2c3bda1eab558.jpg?auto=format&fit=crop&w=800&h=600&q=80",
       "preview": "https://raw.githubusercontent.com/Punuru-jithendraReddy/portfolio-app/main/assets/Opensales.mp4",
-      "problem": "Limited visibility into open sales orders obscures true pipeline health.",
-      "solution": "Delivers a real-time, consolidated view of open orders with trend insights.",
-      "impact": "Enables clearer pipeline tracking and faster, data-driven sales decisions.",
+      "problem": "Limited visibility into open sales orders obscured true pipeline health.",
+      "solution": "A real-time reporting system consolidated open orders with trend and ownership insights.",
+      "impact": "Sales teams gained clearer pipeline tracking and faster operational decisions.",
       "shortSummary": "A real-time open-order reporting experience built to clarify pipeline value, pricing, trends, and sales ownership.",
-      "details": "This Open Sales Order analytics solution provides a real-time, consolidated view of open sales performance across customers, regions, and sales ownership. It enables clear visibility into order value, volume, pricing, and status, while supporting year-over-year trend analysis to identify demand patterns and seasonality.\n\nThe solution demonstrates strong capability in business-aligned KPI definition, dynamic, filter-driven analysis, and insight-focused reporting, supporting faster and more informed decision-making for sales and leadership teams."
+      "details": "This sales analytics solution creates a real-time, consolidated view of open sales performance across customers, regions, and ownership. It provides visibility into order value, volume, pricing, and status while supporting year-over-year trend analysis to identify demand patterns and seasonality.\n\nThe result is a business-facing reporting layer that improves pipeline conversations, helps leadership spot issues earlier, and supports faster sales decision-making."
     },
     {
       "title": "Performance Leaderboard",
@@ -232,11 +245,11 @@
       "featured": false,
       "image": "https://i.pinimg.com/1200x/9a/ee/10/9aee10159bcc70f8912713c7933b86b6.jpg?auto=format&fit=crop&w=800&h=600&q=80",
       "preview": "https://raw.githubusercontent.com/Punuru-jithendraReddy/portfolio-app/main/assets/SPR.mp4",
-      "problem": "Relying on intuition to assess performance caused leaders to overlook top talent.",
-      "solution": "Automated rankings and trend insights to recognize high performers instantly.",
-      "impact": "Data-driven performance reviews without manual reporting.",
+      "problem": "Leaders lacked a consistent way to compare sales performance across owners, regions, and periods.",
+      "solution": "Automated rankings and trend views turned raw data into a leaderboard-style performance system.",
+      "impact": "Performance reviews became more consistent and less dependent on manual reporting.",
       "shortSummary": "A leaderboard-style dashboard that turns sales performance into clearer rankings, contribution views, and trend analysis.",
-      "details": "This dashboard delivers a holistic view of sales performance and revenue trends across time, regions, products, and ownership. It enables stakeholders to track sales growth, contribution patterns, and performance drivers through interactive comparisons and drill-down analysis.\n\nThe solution highlights the ability to structure complex sales data into meaningful KPIs, enable multi-dimensional analysis, and present insights in a way that supports strategic planning, performance monitoring, and informed business decisions."
+      "details": "This dashboard delivers a holistic view of sales performance and revenue trends across time, regions, products, and ownership. Stakeholders can track contribution patterns, identify top performers, and drill into performance drivers using a single reporting experience.\n\nIt demonstrates how a business website can showcase solution outcomes instead of simply listing technical tools."
     },
     {
       "title": "Time-Intelligent Sales Benchmarking",
@@ -244,11 +257,11 @@
       "featured": false,
       "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&h=600&q=80",
       "preview": "https://raw.githubusercontent.com/Punuru-jithendraReddy/portfolio-app/main/assets/AdvancePerformanceAnalytics.mp4",
-      "problem": "Current-month performance lacks historical context for meaningful evaluation.",
-      "solution": "Compares current sales, profit, and volume against rolling historical averages.",
-      "impact": "Enables clearer trend detection and more confident performance decisions.",
+      "problem": "Current-month sales performance lacked historical context for confident evaluation.",
+      "solution": "Rolling 3-, 6-, 12-, and 24-month comparisons provided context-aware benchmarking.",
+      "impact": "Teams could identify trend shifts earlier and make more confident performance decisions.",
       "shortSummary": "Rolling 3-, 6-, 12-, and 24-month comparisons for trend detection and contextual sales benchmarking.",
-      "details": "This dashboard enables comparative performance analysis by evaluating current month sales, profit, and volume against rolling 3-, 6-, 12-, and 24-month averages. This approach helps identify short-term momentum, long-term trends, and performance deviations with clarity.\n\nThe solution demonstrates the ability to deliver time-intelligent analytics, support trend benchmarking, and provide context-driven insights that improve sales monitoring, forecasting accuracy, and data-driven decision-making."
+      "details": "This dashboard evaluates current month sales, profit, and volume against rolling historical averages, helping users identify short-term momentum, long-term trends, and performance deviations with clarity.\n\nThe solution highlights the studio's strength in time-intelligent analytics and context-driven business reporting."
     },
     {
       "title": "Period-Based Sales Performance Comparison",
@@ -256,11 +269,11 @@
       "featured": false,
       "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=900&h=600&q=80",
       "preview": "https://raw.githubusercontent.com/Punuru-jithendraReddy/portfolio-app/main/assets/PeriodBasedSales.mp4",
-      "problem": "Sales performance is difficult to interpret without clear comparison across time periods.",
-      "solution": "Displays previous, current, and next period sales metrics dynamically based on the selected period.",
-      "impact": "Enables quick period-over-period analysis and better short-term planning decisions.",
+      "problem": "Teams struggled to interpret changes in sales without clear cross-period comparisons.",
+      "solution": "A dynamic comparison model showed previous, current, and next period metrics in one reporting flow.",
+      "impact": "Period-over-period analysis became faster and easier to act on.",
       "shortSummary": "A dynamic comparison model built for previous, current, and next period analysis in a single reporting flow.",
-      "details": "This dashboard provides a dynamic, period-driven sales comparison view by displaying previous, current, and next period values across all key sales metrics based on a user-selected timeframe. It allows users to seamlessly evaluate performance shifts, identify momentum changes, and anticipate near-term outcomes.\n\nThe solution demonstrates strong use of time intelligence and dynamic calculations, enabling consistent period-over-period analysis that improves sales monitoring, planning accuracy, and data-driven decision-making."
+      "details": "This dashboard provides a dynamic, period-driven sales comparison view by displaying previous, current, and next period values across key sales metrics based on a user-selected timeframe.\n\nThe reporting experience improves planning conversations by turning raw period data into a clearer operating narrative."
     },
     {
       "title": "Budget vs Actuals Analytics Dashboard",
@@ -268,97 +281,120 @@
       "featured": true,
       "image": "https://i.pinimg.com/736x/de/0c/66/de0c668e53f0393c7ec8c32aa210b7c4.jpg?auto=format&fit=crop&w=800&q=80",
       "preview": "https://raw.githubusercontent.com/Punuru-jithendraReddy/portfolio-app/main/assets/BudgetVsActuals.mp4",
-      "problem": "Budget and actual data were spread across multiple systems, making reconciliation slow and inconsistent.",
-      "solution": "A unified Power BI dashboard combining Budget, SPR, Open Sales, and Inventory data for accurate variance analysis.",
-      "impact": "Enabled faster financial insights, reduced manual reconciliation, and improved budget control.",
+      "problem": "Budget and actual data lived in separate systems, making reconciliation slow and inconsistent.",
+      "solution": "A unified Power BI model combined budget, SPR, open sales, and inventory data for variance reporting.",
+      "impact": "Finance teams gained faster insight, reduced reconciliation effort, and better budget control.",
       "shortSummary": "A unified finance dashboard that standardizes source data and makes variance analysis easier to trust and act on.",
-      "details": "The Budget vs Actuals Dashboard consolidates budgeted values and actual performance from SPR, Open Sales, and Inventory into a single Power BI model. It standardizes business unit mappings, resolves source-level inconsistencies, and provides clear variance analysis across time periods. The dashboard supports dynamic comparisons, KPI tracking, and drill-down analysis, helping finance and business stakeholders monitor performance, identify gaps, and support informed decision-making."
+      "details": "The Budget vs Actuals dashboard consolidates budgeted values and actual performance from multiple operational systems into a single Power BI model. It standardizes mappings, resolves source inconsistencies, and provides clear variance analysis across time periods.\n\nFor a business website, this functions as a strong case study because it demonstrates systems thinking, finance relevance, and measurable reporting improvement."
     },
     {
       "title": "Hospital Risk Analysis Dashboard",
-      "category": "Medical",
+      "category": "Healthcare",
       "featured": true,
       "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=800&q=80",
       "preview": "https://raw.githubusercontent.com/Punuru-jithendraReddy/portfolio-app/main/assets/PharmaDashboards.mp4",
       "problem": "Healthcare risk data was fragmented, making it difficult to identify high-risk patients and operational issues.",
-      "solution": "An interactive Power BI dashboard that consolidates clinical and operational risk indicators into a single view.",
-      "impact": "Improved risk visibility, faster decision-making, and better prioritization of patient care and resources.",
+      "solution": "An interactive Power BI dashboard consolidated clinical and operational risk indicators into one view.",
+      "impact": "Teams improved risk visibility, decision speed, and prioritization of care resources.",
       "shortSummary": "A healthcare risk dashboard that brings scattered indicators into a single, drillable operational view.",
-      "details": "The Hospital Risk Analysis Dashboard provides a unified view of patient risk, operational metrics, and key indicators using Power BI. It enables users to monitor high-risk cases, analyze trends, and drill down into contributing factors across departments and time periods. Designed for healthcare analysts and management, the dashboard supports proactive risk identification and data-driven decision-making."
+      "details": "The Hospital Risk Analysis dashboard provides a unified view of patient risk, operational metrics, and key indicators using Power BI. Users can monitor high-risk cases, analyze trends, and drill into contributing factors across departments and time periods.\n\nThe business value comes from turning fragmented reporting into earlier intervention and clearer operational oversight."
     },
     {
       "title": "Healthcare Performance & Insights Dashboard",
-      "category": "Medical",
+      "category": "Healthcare",
       "featured": false,
       "image": "https://i.pinimg.com/1200x/08/85/d7/0885d73f8003097b7ba03e70b92fbef9.jpg?auto=format&fit=crop&w=800&q=80",
       "preview": "https://raw.githubusercontent.com/Punuru-jithendraReddy/portfolio-app/main/assets/HealthCareDashboard.mp4",
-      "problem": "Healthcare data was spread across systems, limiting visibility into performance and operational issues.",
-      "solution": "A centralized Power BI dashboard combining key healthcare metrics into one interactive view.",
-      "impact": "Improved visibility, faster insights, and better operational decision-making.",
+      "problem": "Data was spread across systems, limiting visibility into healthcare performance and operational bottlenecks.",
+      "solution": "A centralized reporting view combined key metrics into one interactive dashboard.",
+      "impact": "Management gained faster insight and a stronger basis for operational decisions.",
       "shortSummary": "A centralized view for clinical activity and operational trends across healthcare reporting workflows.",
-      "details": "The Healthcare Performance & Insights Dashboard delivers a consolidated view of clinical activity, operational performance, and key trends using Power BI. It allows users to analyze metrics across time, departments, and categories with interactive filters and drill-downs. Built to support analysts and leadership, the dashboard helps monitor performance, identify improvement areas, and support strategic planning."
+      "details": "This dashboard delivers a consolidated view of clinical activity, operational performance, and key trends using Power BI. It allows analysts and leadership teams to compare metrics across time, departments, and categories with interactive filters and drill-downs.\n\nThe case study shows how reporting design can improve coordination across operational teams."
     },
     {
       "title": "Hospital Quality Analysis Dashboard",
-      "category": "Medical",
+      "category": "Healthcare",
       "featured": false,
       "image": "https://i.pinimg.com/1200x/68/61/5e/68615e2319cab398d47f19bd58e0035e.jpg?auto=format&fit=crop&w=800&q=80",
       "preview": "https://raw.githubusercontent.com/Punuru-jithendraReddy/portfolio-app/main/assets/HospitalQualityAnalysis.mp4",
-      "problem": "Quality performance metrics were scattered across reports, limiting visibility into care outcomes and service quality.",
-      "solution": "A centralized Power BI dashboard to track and analyze hospital quality indicators in one place.",
-      "impact": "Enhanced quality monitoring, quicker insights, and better support for continuous improvement initiatives.",
+      "problem": "Quality metrics were scattered across reports, limiting visibility into outcomes and service quality.",
+      "solution": "A centralized Power BI dashboard tracked and analyzed hospital quality indicators in one place.",
+      "impact": "Quality monitoring became more consistent and improvement efforts became easier to prioritize.",
       "shortSummary": "Quality-focused reporting for hospital teams that need a clearer view of service and outcome indicators.",
-      "details": "The Hospital Quality Analysis Dashboard delivers a consolidated view of healthcare quality metrics using Power BI. It helps stakeholders monitor performance trends, compare key indicators across time and departments, and identify areas requiring improvement. The dashboard is designed for healthcare management and analysts to support data-driven quality assessments and reporting."
+      "details": "The Hospital Quality Analysis dashboard consolidates healthcare quality metrics into a single reporting experience. Teams can monitor trends, compare indicators across departments, and identify areas that need attention.\n\nAs a website case study, it reinforces the studio's ability to translate complex, fragmented data into usable business reporting."
     },
     {
       "title": "Flat File Comparison Tool",
-      "category": "Tools",
+      "category": "Data Operations",
       "featured": true,
       "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?auto=format&fit=crop&w=800&q=80",
       "preview": "https://raw.githubusercontent.com/Punuru-jithendraReddy/portfolio-app/main/assets/FFCT.mp4",
-      "problem": "Manual validation of large Excel and CSV files is time-consuming and error-prone.",
-      "solution": "A browser-based Python Streamlit application for reliable Source vs Target flat-file comparison.",
-      "impact": "Enables fast, accurate validation of 100k+ row datasets with audit-ready Excel outputs.",
+      "problem": "Manual validation of large Excel and CSV files was time-consuming and error-prone.",
+      "solution": "A browser-based Streamlit application enabled reliable source-versus-target file comparison at scale.",
+      "impact": "Teams gained faster validation, clearer diagnostics, and audit-ready output without manual reconciliation.",
       "shortSummary": "A validation tool built for reconciliation, migration checks, and structured mismatch diagnostics at scale.",
-      "details": "The Flat File Comparison Tool is a web-hosted data comparison application built using Python and Streamlit, designed to compare large Excel and CSV files directly from the browser without any local installation, setup, or technical configuration. It is optimized for business users, data analysts, auditors, and engineers who require reliable file-level and data-level comparison with clear diagnostics and structured outputs.\n\nThe tool supports Excel and CSV files and allows users to upload Source and Target files, dynamically select sheets, configure header row positions, and choose single or multiple business key columns. It includes normalization features such as case-insensitive column matching, case-insensitive data comparison, optional whitespace trimming, and handling of dates, numeric formats, and null values.\n\nComparison results include match percentage calculation, row-level classification, schema difference detection, and value-level mismatch identification. Intelligent diagnostics provide root-cause analysis, ranked mismatch impact, sample value inspection, and automated recommendations to improve match accuracy.\n\nAfter execution, the tool generates a business-friendly Excel report containing an executive summary, column comparison, row comparison, unique value analysis, and summary statistics. All files are processed securely in-memory per session, with no permanent storage or external system integration."
+      "details": "The Flat File Comparison Tool is a web-hosted data comparison application built with Python and Streamlit. It supports Excel and CSV inputs, configurable sheet selection, header row controls, multi-key matching, and normalized comparison logic.\n\nThe solution demonstrates that the studio can also support operational data confidence workflows, not only BI dashboards."
     }
   ],
-  "experience": [
+  "operatingModel": [
     {
-      "role": "Software Engineer (BI & Automation)",
-      "company": "Svarapps Technologies Pvt Ltd",
-      "date": "Sep 2024 - Present",
-      "summary": "Current work blends Power BI delivery with reporting automation, Microsoft workflow tooling, and performance-focused analytics engineering.",
-      "highlights": [
-        "Delivered 12+ Power BI dashboards across Finance, Sales, Logistics, and Operations.",
-        "Built end-to-end Oracle to SharePoint to Power BI data pipelines using Python and automation.",
-        "Improved reporting performance through model and refresh optimization.",
-        "Developed automation and AI solutions with Copilot Studio, Logic Apps, and AI Builder.",
-        "Reduced dependency on premium BI licensing through Excel-based reporting alternatives where appropriate."
+      "label": "01 Discovery",
+      "title": "Business questions come before dashboard layouts",
+      "summary": "Work starts by clarifying which decisions the reporting system needs to support, who uses it, and where the current friction sits.",
+      "points": [
+        "KPI mapping and stakeholder alignment",
+        "Current reporting pain-point review",
+        "Source system and data readiness check"
       ]
     },
     {
-      "role": "Data Analyst Intern",
-      "company": "AI Varient",
-      "date": "Nov 2023 - Apr 2024",
-      "summary": "Internship work focused on reporting, visualization, and data modeling foundations across Power BI, Tableau, Excel, and SQL.",
-      "highlights": [
-        "Generated reports and dashboards using Power BI Desktop, Tableau, and Advanced Excel.",
-        "Constructed tabular and multidimensional data models.",
-        "Created visualizations from live and extracted data sources.",
-        "Processed and shaped data using Excel, MySQL, and extraction techniques.",
-        "Completed two analytics projects during the internship period."
+      "label": "02 Build",
+      "title": "Models, measures, and interfaces are designed together",
+      "summary": "The studio avoids treating visuals as a separate layer. Data structure, DAX logic, and user flow are shaped at the same time.",
+      "points": [
+        "Data model and relationship design",
+        "DAX development with maintainability in mind",
+        "Dashboard interface design for fast decision-making"
+      ]
+    },
+    {
+      "label": "03 Launch",
+      "title": "Delivery includes readiness for real business use",
+      "summary": "Handoffs are built around adoption, not screenshots. Reports are prepared for actual team workflows, refresh behavior, and follow-up changes.",
+      "points": [
+        "Refresh and workflow validation",
+        "Business-facing handoff support",
+        "Iteration based on how teams actually use the report"
+      ]
+    },
+    {
+      "label": "04 Improve",
+      "title": "Automation and refinement keep the system useful",
+      "summary": "Once reporting is live, the next gains usually come from process cleanup, automation, and stronger consistency across teams.",
+      "points": [
+        "Automation opportunities across Microsoft tools",
+        "Performance optimization and cleanup",
+        "Continuous improvement for reporting reliability"
       ]
     }
   ],
-  "skills": [
-    { "name": "Power BI", "value": 95 },
-    { "name": "DAX", "value": 90 },
-    { "name": "Power Automate", "value": 90 },
-    { "name": "Python", "value": 85 },
-    { "name": "SQL", "value": 80 },
-    { "name": "Azure Logic Apps", "value": 75 },
-    { "name": "Power Apps", "value": 75 }
+  "capabilities": [
+    {
+      "title": "Executive reporting systems",
+      "copy": "Board-ready and leadership-ready views for KPIs, trends, exceptions, and performance discussions."
+    },
+    {
+      "title": "Operational dashboard design",
+      "copy": "Interactive reporting for teams that need daily visibility into backlog, workload, pipeline, quality, or delivery movement."
+    },
+    {
+      "title": "DAX and model optimization",
+      "copy": "Cleanup for slow, confusing, or fragile reports so they scale better and stay easier to maintain."
+    },
+    {
+      "title": "Automation and reporting workflow support",
+      "copy": "Connected delivery across Power Automate, Python, SharePoint, and related Microsoft tooling."
+    }
   ],
   "toolGroups": [
     {
@@ -374,7 +410,7 @@
     },
     {
       "title": "Automation stack",
-      "description": "Microsoft and Python-based tools used to reduce manual effort and improve reporting flow.",
+      "description": "Microsoft and Python-based tools used to reduce manual work and improve reporting flow.",
       "items": [
         "Power Automate",
         "Power Apps",
@@ -394,8 +430,8 @@
       ]
     },
     {
-      "title": "Reporting approach",
-      "description": "Delivery focus areas that shape the way dashboards and models are built.",
+      "title": "Delivery strengths",
+      "description": "Operating principles that shape how reporting systems are scoped and delivered.",
       "items": [
         "Business-aligned KPIs",
         "Time-intelligence logic",
@@ -408,17 +444,17 @@
     {
       "step": "01",
       "title": "Understand the reporting problem",
-      "text": "Start with the business questions, the users, the current reporting pain points, and the data sources that feed the work."
+      "text": "Start with the business questions, target users, current reporting pain points, and the systems feeding the work."
     },
     {
       "step": "02",
       "title": "Model and simplify the data",
-      "text": "Design a cleaner structure for measures, dimensions, calculations, and refresh logic before the visuals take over the conversation."
+      "text": "Design a cleaner structure for measures, dimensions, calculations, and refresh logic before visuals take over the conversation."
     },
     {
       "step": "03",
       "title": "Design for clarity and action",
-      "text": "Build dashboard views that make KPIs, exceptions, comparisons, and trends easier to understand and use in real decisions."
+      "text": "Build dashboard views that make KPIs, exceptions, comparisons, and trends easier to understand and act on."
     },
     {
       "step": "04",
@@ -445,32 +481,32 @@
       },
       {
         "label": "LinkedIn",
-        "value": "linkedin.com/in/jithendrareddypunuru",
+        "value": "Founder profile and recent work",
         "href": "https://www.linkedin.com/in/jithendrareddypunuru/"
       },
       {
-        "label": "Resume",
-        "value": "Open the latest PDF resume",
-        "href": "https://huggingface.co/spaces/Jithendra-reddy/My-Portfolio/resolve/main/src/Jithendra_Reddy_PowerBI_Developer_Resume.pdf"
+        "label": "Response window",
+        "value": "Typical first response within 1 business day",
+        "href": "mailto:jithendrareddypunuru@gmail.com"
       }
     ],
     "form": {
-      "title": "Start a Power BI conversation",
-      "note": "Share your goals, reporting challenges, source systems, and expected timeline. Every inquiry is sent directly to email for follow-up.",
+      "title": "Talk to Insight BI Studio",
+      "note": "Share your reporting goals, current bottlenecks, source systems, and timeline. Every inquiry is sent directly to email for follow-up.",
       "submitUrl": "https://formsubmit.co/jithendrareddypunuru@gmail.com",
-      "subject": "New Power BI project inquiry - Insight BI Studio",
+      "subject": "New business inquiry - Insight BI Studio",
       "template": "table",
       "thankYouPath": "thanks.html",
-      "pendingMessage": "Sending your project brief and opening the confirmation page...",
-      "successMessage": "Thanks, your project brief has been sent successfully. I will get back to you soon.",
-      "errorMessage": "There was a problem sending your brief. Please try again or email jithendrareddypunuru@gmail.com directly.",
+      "pendingMessage": "Sending your inquiry and opening the confirmation page...",
+      "successMessage": "Thanks, your inquiry has been sent successfully. The team will follow up soon.",
+      "errorMessage": "There was a problem sending your inquiry. Please try again or email jithendrareddypunuru@gmail.com directly.",
       "submittingLabel": "Sending...",
       "projectTypes": [
-        "New Power BI dashboard",
-        "Existing report optimization",
-        "DAX and model cleanup",
-        "Reporting automation",
-        "Data analysis support"
+        "Executive dashboard build",
+        "Reporting system overhaul",
+        "DAX and model optimization",
+        "Automation and workflow integration",
+        "Data quality or reconciliation solution"
       ],
       "budgetRanges": [
         "< $1,000",
@@ -487,18 +523,18 @@
     }
   },
   "footer": {
-    "eyebrow": "Premium BI delivery",
-    "title": "Need dashboards that feel clean, fast, and decision-ready?",
-    "description": "From sales analytics and finance reporting to healthcare dashboards and automation, the goal is always the same: clearer decisions with less reporting friction.",
+    "eyebrow": "Insight BI Studio",
+    "title": "Need a reporting system your team can actually rely on?",
+    "description": "From sales analytics and finance reporting to healthcare dashboards and automation, the goal stays the same: clearer decisions with less reporting friction.",
     "primaryCta": {
-      "label": "Contact the studio",
+      "label": "Start a conversation",
       "href": "#contact"
     },
     "secondaryCta": {
-      "label": "View resume",
-      "href": "https://huggingface.co/spaces/Jithendra-reddy/My-Portfolio/resolve/main/src/Jithendra_Reddy_PowerBI_Developer_Resume.pdf"
+      "label": "See case studies",
+      "href": "#projects"
     },
-    "note": "{owner} builds Power BI dashboards, analytics workflows, and reporting systems focused on clarity, performance, and business usability.",
-    "legal": "Available for Power BI dashboards, reporting automation, analytics consulting, and end-to-end BI delivery engagements."
+    "note": "Insight BI Studio combines Power BI delivery, reporting automation, and data design to help teams move faster with less reporting friction.",
+    "legal": "Serving finance, sales, operations, and healthcare teams with dashboard delivery, reporting modernization, and automation support."
   }
 }
