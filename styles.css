@@ -1721,7 +1721,9 @@ html[data-theme="dark"] .project-badge {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-
+ .about-stats {
+    grid-template-columns: 1fr;
+  }
   .footer-top,
   .footer-bottom {
     flex-direction: column;
